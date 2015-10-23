@@ -4,8 +4,10 @@ $(window).on('scroll', function(e) {
 	console.log(pixelsToMove);
  
 
- 	$('.hills').css('left', "-" + pixelsToMove + 'px')
+ 	$('.hills').css('left', "-" + pixelsToMove + 'px');
 
+ 	//Superhero characters is rolling!!
+ 	$('.hero').css('transform', 'rotate('+ pixelsToMove + 'deg)');
 
 
 });
